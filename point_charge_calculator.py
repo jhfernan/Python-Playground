@@ -19,4 +19,4 @@ def point_charge():
 	return value
 
 result = point_charge()
-print(point_charge())
+print(result)
