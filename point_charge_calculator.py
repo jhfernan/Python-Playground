@@ -13,9 +13,10 @@ perm = 8.854187817e-12
 #Function needs two arguments, one for the radius from the point,
 # and one for the charge value. All other values are unchanging.
 def point_charge():
-    crg = float(input('Please enter your charge density value. '))
-    rad = float(input('Please enter your radius from charge at appropriate point in electric field. '))
-    value = ((circ / perm) * (crg / rad ** 2))
-    return value
+	crg = float(input('Please enter your charge density value. '))
+	rad = float(input('Please enter your radius from charge at appropriate point in electric field. '))
+	value = ((circ / perm) * (crg / rad ** 2))
+	return value
 
-point_charge()
+result = point_charge()
+print(point_charge())
