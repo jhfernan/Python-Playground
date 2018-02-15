@@ -1,8 +1,18 @@
-#The Crux of all Physics 2 is Electric potential energy.
+#Electric potential energy, the easy way to solve physics problems.
 #This energy is converted from potential to kinetic just like in any other situation.
 #The calculations based upon Energy in general can be used to design and build anything.
 #This application will attempt to quickly formulate Energy quantities and interpret them,
-# calculate electric potential or voltage and electric field strength, which is the derivative of Voltage.
+# calculate electric potential or voltage and electric field strength, which is - the derivative of Voltage.
+
+#Quantities that would be nice not to have to type out every time:
+#Charge of an electron
+ech = -1.6e-19
+#Charge of a proton
+pch = 1.6e-19
+#Mass of an electron
+m_elec = 9.11e-31
+#Mass of a proton
+m_prot = 1.67e-27
 
 #First there are several variable quantities needed.
 

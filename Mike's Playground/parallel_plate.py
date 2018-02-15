@@ -21,3 +21,11 @@ result = pp_electric_field()
 print(result)
 
 #delta V = Ed (being the voltage difference between two plates. This equals the electric field times the distance between them.)
+
+def electric_potential():
+    dist = float(input('What is the distance or separation between the capacitor plates?\n>>> '))
+    cng_volt = result * dist
+    return cng_volt
+
+voltage = electric_potential()
+print(voltage)
