@@ -5,15 +5,21 @@ import math
 
 #store values
 
-#Perfmittivity constant
+#Permittivity constant
 perm = 8.854187817e-12
+
+#ADDITIONAL FUNCTIONALITY
+#Ask user if electric field value is available
+#If yes run electric_potential function and assign value to result
+#
 
 #Electric Field of a parallel plate capacitor formula (E = eta/Epsilon Naught)
 
 def pp_electric_field():
-    crg = float(input('Enter the charge value.\n>>> '))
+    #In order to calculate eta we need the charge value and the area.
+    charge = float(input('Enter the charge value.\n>>> '))
     area = float(input('Enter your area value.\n>>> '))
-    eta = crg/area
+    charge_density = charge/area
     E_field = eta/perm
     return E_field
 
@@ -24,7 +30,7 @@ print(result)
 
 def electric_potential():
     dist = float(input('What is the distance or separation between the capacitor plates?\n>>> '))
-    cng_volt = result * dist
+    change_in_V = result * dist
     return cng_volt
 
 voltage = electric_potential()
